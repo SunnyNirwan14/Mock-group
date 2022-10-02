@@ -1,59 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-19T21:54:21 IST" name="Failed suite [Default suite]" finished-at="2022-09-19T21:54:36 IST" duration-ms="15127">
+  <suite started-at="2022-09-29T21:34:47 IST" name="Suite" finished-at="2022-09-29T21:35:06 IST" duration-ms="18669">
     <groups>
     </groups>
-    <test started-at="2022-09-19T21:54:21 IST" name="Default test(failed)" finished-at="2022-09-19T21:54:36 IST" duration-ms="15127">
+    <test started-at="2022-09-29T21:34:47 IST" name="Test" finished-at="2022-09-29T21:35:06 IST" duration-ms="18669">
+      <class name="testPackage.TestNg2">
+        <test-method is-config="true" signature="beforeclassB()[pri:0, instance:testPackage.TestNg2@36902638]" started-at="2022-09-29T21:34:47 IST" name="beforeclassB" finished-at="2022-09-29T21:34:53 IST" duration-ms="5796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclassB -->
+        <test-method is-config="true" signature="beforemethodB()[pri:0, instance:testPackage.TestNg2@36902638]" started-at="2022-09-29T21:34:53 IST" name="beforemethodB" finished-at="2022-09-29T21:34:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethodB -->
+        <test-method signature="testB()[pri:-1, instance:testPackage.TestNg2@36902638]" started-at="2022-09-29T21:34:53 IST" name="testB" finished-at="2022-09-29T21:34:54 IST" duration-ms="1202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method is-config="true" signature="beforemethodB()[pri:0, instance:testPackage.TestNg2@36902638]" started-at="2022-09-29T21:34:54 IST" name="beforemethodB" finished-at="2022-09-29T21:34:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethodB -->
+        <test-method signature="testC()[pri:1, instance:testPackage.TestNg2@36902638]" started-at="2022-09-29T21:34:54 IST" name="testC" finished-at="2022-09-29T21:35:00 IST" duration-ms="5731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+        <test-method is-config="true" signature="afterclassB()[pri:0, instance:testPackage.TestNg2@36902638]" started-at="2022-09-29T21:35:00 IST" name="afterclassB" finished-at="2022-09-29T21:35:00 IST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclassB -->
+      </class> <!-- testPackage.TestNg2 -->
       <class name="testPackage.TestNg1">
-        <test-method is-config="true" signature="beforeclassA()[pri:0, instance:testPackage.TestNg1@38c6f217]" started-at="2022-09-19T21:54:21 IST" name="beforeclassA" finished-at="2022-09-19T21:54:27 IST" duration-ms="6561" status="PASS">
+        <test-method is-config="true" signature="beforeclassA()[pri:0, instance:testPackage.TestNg1@79e2c065]" started-at="2022-09-29T21:34:47 IST" name="beforeclassA" finished-at="2022-09-29T21:34:59 IST" duration-ms="11478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclassA -->
-        <test-method is-config="true" signature="beforemethodA()[pri:0, instance:testPackage.TestNg1@38c6f217]" started-at="2022-09-19T21:54:28 IST" name="beforemethodA" finished-at="2022-09-19T21:54:28 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforemethodA()[pri:0, instance:testPackage.TestNg1@79e2c065]" started-at="2022-09-29T21:34:59 IST" name="beforemethodA" finished-at="2022-09-29T21:34:59 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethodA -->
-        <test-method signature="VerifyLoginPage()[pri:0, instance:testPackage.TestNg1@38c6f217]" started-at="2022-09-19T21:54:28 IST" name="VerifyLoginPage" finished-at="2022-09-19T21:54:29 IST" duration-ms="1145" status="PASS">
+        <test-method signature="VerifyLoginPage()[pri:0, instance:testPackage.TestNg1@79e2c065]" started-at="2022-09-29T21:34:59 IST" name="VerifyLoginPage" finished-at="2022-09-29T21:35:00 IST" duration-ms="831" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLoginPage -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testPackage.TestNg1@38c6f217]" started-at="2022-09-19T21:54:29 IST" name="aftermethod" finished-at="2022-09-19T21:54:29 IST" duration-ms="329" status="PASS">
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testPackage.TestNg1@79e2c065]" started-at="2022-09-29T21:35:00 IST" name="aftermethod" finished-at="2022-09-29T21:35:00 IST" duration-ms="219" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyLoginPage status=SUCCESS method=TestNg1.VerifyLoginPage()[pri:0, instance:testPackage.TestNg1@38c6f217] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyLoginPage status=SUCCESS method=TestNg1.VerifyLoginPage()[pri:0, instance:testPackage.TestNg1@79e2c065] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="beforemethodA()[pri:0, instance:testPackage.TestNg1@38c6f217]" started-at="2022-09-19T21:54:29 IST" name="beforemethodA" finished-at="2022-09-19T21:54:29 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethodA -->
-        <test-method signature="VerifyHomePage()[pri:1, instance:testPackage.TestNg1@38c6f217]" started-at="2022-09-19T21:54:29 IST" name="VerifyHomePage" finished-at="2022-09-19T21:54:36 IST" duration-ms="6773" status="PASS">
+        <test-method signature="VerifyHomePage()[pri:1, instance:testPackage.TestNg1@79e2c065]" started-at="2022-09-29T21:35:00 IST" name="VerifyHomePage" finished-at="2022-09-29T21:35:06 IST" duration-ms="5967" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyHomePage -->
-        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testPackage.TestNg1@38c6f217]" started-at="2022-09-19T21:54:36 IST" name="aftermethod" finished-at="2022-09-19T21:54:36 IST" duration-ms="55" status="PASS">
+        <test-method is-config="true" signature="beforemethodA()[pri:0, instance:testPackage.TestNg1@79e2c065]" started-at="2022-09-29T21:35:00 IST" name="beforemethodA" finished-at="2022-09-29T21:35:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethodA -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:testPackage.TestNg1@79e2c065]" started-at="2022-09-29T21:35:06 IST" name="aftermethod" finished-at="2022-09-29T21:35:06 IST" duration-ms="38" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyHomePage status=SUCCESS method=TestNg1.VerifyHomePage()[pri:1, instance:testPackage.TestNg1@38c6f217] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyHomePage status=SUCCESS method=TestNg1.VerifyHomePage()[pri:1, instance:testPackage.TestNg1@79e2c065] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermethod -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testPackage.TestNg1@38c6f217]" started-at="2022-09-19T21:54:36 IST" name="close" finished-at="2022-09-19T21:54:36 IST" duration-ms="217" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testPackage.TestNg1@79e2c065]" started-at="2022-09-29T21:35:06 IST" name="close" finished-at="2022-09-29T21:35:06 IST" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testPackage.TestNg1 -->
-    </test> <!-- Default test(failed) -->
-  </suite> <!-- Failed suite [Default suite] -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
